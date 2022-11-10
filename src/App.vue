@@ -1,10 +1,23 @@
 <template>
-  <h1>Hello World</h1>
+  <HeaderComponent />
+  <main>
+    <ProductList />
+  </main>
+  <FooterComponent />
+
 </template>
 
 <script>
-export default {
+import FooterComponent from './components/FooterComponent.vue';
+import HeaderComponent from './components/HeaderComponent.vue';
+import ProductList from './components/ProductList.vue';
 
+export default {
+  components: {
+    HeaderComponent,
+    ProductList,
+    FooterComponent
+  }
 }
 </script>
 
