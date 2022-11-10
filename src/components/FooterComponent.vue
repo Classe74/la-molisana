@@ -46,6 +46,9 @@ export default {
 
 footer {
     padding-top: 3rem;
+    background-image: url('../assets/img/footer-montagne-bottom.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
 
     .cols {
         display: flex;
