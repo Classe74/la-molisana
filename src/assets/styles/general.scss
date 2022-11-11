@@ -7,6 +7,15 @@
  @import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
  @import '@fortawesome/fontawesome-free/scss/solid.scss';
 
+
+ //$primary: red;
+ //$secondary: green;
+//  $success: $green !default;
+//  $info: $cyan !default;
+//  $warning: $yellow !default;
+//  $danger: $red !default;
+//  $light: $gray-100 !default;
+//  $dark: $gray-900 !default;
 @import 'bootstrap/scss/bootstrap';
 
 * {
@@ -18,7 +27,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 img {
-    max-width: 100%;
+   max-width: 100%;
 }
 a {
     color: $blacktext;

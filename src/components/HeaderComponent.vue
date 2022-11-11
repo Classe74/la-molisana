@@ -1,8 +1,9 @@
 <template>
     <header>
-        <h1>Header</h1>
+        <!-- <h1>Header</h1> -->
         <a href="#">
             <img src="../assets/img/la-molisana-logo.png" alt="La Molisana">
+            <!-- <img :src="getImageURL(image)" alt="La Molisana"> -->
         </a>
         <nav>
             <!-- <ul class="d-flex justify-content-center align-items-center"> -->
@@ -20,6 +21,7 @@ export default {
     name: 'HeaderComponent',
     data() {
         return {
+            image: '../assets/img/la-molisana-logo.png', //non funziona se non con metodo
             links: [
                 {
                     text: "Home",
@@ -43,6 +45,11 @@ export default {
                 },
             ]
         }
+    },
+    methods: {
+        //     getImageURL: function (imgPath) {
+        //         return new URL(imgPath, import.meta.url).href;
+        //     }
     }
 }
 </script>

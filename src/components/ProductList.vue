@@ -24,8 +24,17 @@
 </template>
 
 <script>
+import { products } from '../data/products';
 export default {
-    name: 'ProductList'
+    name: 'ProductList',
+    data() {
+        return {
+            pastas: products,
+        }
+    },
+    mounted() {
+        console.log(this.pastas);
+    }
 }
 </script>
 
@@ -52,6 +61,8 @@ export default {
             flex-basis: calc(100% / 4);
             padding: 2rem;
         }
+
+
     }
 
 }
