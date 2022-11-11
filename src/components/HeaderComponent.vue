@@ -1,5 +1,6 @@
 <template>
     <header>
+        <h1>Header</h1>
         <a href="#">
             <img src="../assets/img/la-molisana-logo.png" alt="La Molisana">
         </a>
