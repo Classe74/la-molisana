@@ -8,7 +8,7 @@
         <nav>
             <!-- <ul class="d-flex justify-content-center align-items-center"> -->
             <ul>
-                <li v-for="(link, index) in links" :key="index">
+                <li v-for="(link, index) in navbar" :key="index">
                     <a :href="link.url" :class="{ 'active': link.current }">{{ link.text }}</a>
                 </li>
             </ul>
@@ -17,33 +17,13 @@
 </template>
 
 <script>
+import { links } from '../data/products.js'
 export default {
     name: 'HeaderComponent',
     data() {
         return {
             image: '../assets/img/la-molisana-logo.png', //non funziona se non con metodo
-            links: [
-                {
-                    text: "Home",
-                    url: "#",
-                    current: false,
-                },
-                {
-                    text: "Prodotti",
-                    url: "#",
-                    current: true,
-                },
-                {
-                    text: "Chi Siamo",
-                    url: "#",
-                    current: false,
-                },
-                {
-                    text: "Contatti",
-                    url: "#",
-                    current: false,
-                },
-            ]
+            navbar: links
         }
     },
     methods: {
