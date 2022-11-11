@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style lang="scss">
-// @use './assets/styles/partials/variables' as *;
+//@use './assets/styles/general.scss' as *;
 
 // h1 {
 //   color: $colorred;
