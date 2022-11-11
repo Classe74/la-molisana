@@ -1,5 +1,5 @@
 <template>
-  <h1>Ciao <i class="fa-solid fa-bell"></i></h1>
+  <!-- <h1>Ciao <i class="fa-solid fa-bell"></i></h1> -->
   <HeaderComponent />
   <main>
     <ProductList />
