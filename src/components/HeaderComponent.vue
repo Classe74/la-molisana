@@ -63,8 +63,6 @@ header {
             padding: 1rem;
             text-decoration: none;
             font-weight: 600;
-            color: $blacktext;
-
 
 
             &.active,

@@ -1,6 +1,9 @@
+@use './partials/mixins' as *;
+@use './partials/variables' as *;
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-// @import 'bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/bootstrap';
 
 * {
     margin: 0;
@@ -13,7 +16,9 @@ body{
 img {
     max-width: 100%;
 }
-
+a {
+    color: $blacktext;
+}
 .container{
     max-width: 1170px;
     margin:0 auto;

@@ -49,10 +49,11 @@ footer {
     background-image: url('../assets/img/footer-montagne-bottom.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
+    padding-bottom: 1rem;
 
     .cols {
         display: flex;
-        margin-bottom: 3rem;
+
 
         .logo,
         .footer-links {
@@ -76,7 +77,7 @@ footer {
                 margin-bottom: 0.25rem;
                 text-decoration: none;
                 font-size: 0.875em;
-                color: $blacktext;
+
 
                 &:hover {
                     color: $bluetext;
