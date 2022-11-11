@@ -1,4 +1,5 @@
 <template>
+  <h1>Ciao <i class="fa-solid fa-bell"></i></h1>
   <HeaderComponent />
   <main>
     <ProductList />
@@ -21,6 +22,10 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+// @use './assets/styles/partials/variables' as *;
 
+// h1 {
+//   color: $colorred;
+// }
 </style>
